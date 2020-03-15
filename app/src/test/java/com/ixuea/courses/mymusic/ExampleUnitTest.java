@@ -1,4 +1,4 @@
-package com.ixuea.courses.mycloudmusicandroidjava;
+package com.ixuea.courses.mymusic;
 
 import org.junit.Test;
 

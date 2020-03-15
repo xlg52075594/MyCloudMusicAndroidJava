@@ -1,4 +1,4 @@
-package com.ixuea.courses.mycloudmusicandroidjava;
+package com.ixuea.courses.mymusic;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.ixuea.courses.mycloudmusicandroidjava", appContext.getPackageName());
+        assertEquals("com.ixuea.courses.mymusic", appContext.getPackageName());
     }
 }
