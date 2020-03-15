@@ -7,7 +7,7 @@ android {
         applicationId "com.ixuea.courses.mycloudmusicandroidjava"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode    rootProject.ext.versionCode
+        versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -26,4 +26,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //请求网络相关
+    //okhttp
+    implementation 'com.squareup.okhttp3:okhttp:4.2.0'
 }
